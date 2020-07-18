@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form_1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.top{
+    padding-top: 200px;
+    font-size: 25px;
+}
+.align-center{
+    display: block;
+    text-align: center;
+}
+.img-bg{
+    background-image: url('sign.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &:nth-of-type(2n) {
+        background-color: #D55B79;
+    }
+}
+.f-btn{
+    display: block;
+    margin: auto;
+   font-size: larger;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.size-btn{
+    width: 90px;
+    font-size: 20px;
+}

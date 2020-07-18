@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+    background: url(brick.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+.ff{
+    font-size: 10px;
+}
+.padd{
+    padding: 8px;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.bgcolornav{
+    background-color: rgb(127, 127, 250);
+}
+.text{
+    color: rgb(255, 255, 255);
+}
+#imgmain{
+    height: 720px;
+    width: 600px;
+}
+.dim{
+    height: 100vh;
+    margin-top: 30px;
+}
+.align{
+    display: block;
+    justify-content: end;
+    text-align: center;
+    margin: auto;
+}
+.pad{
+    padding-top: 350px;
+    padding-left: 750px;
+    color:white;
+}
+
+.firstsecbg{
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: 100%;
+}
+.bg-img{
+    background-image: url('section1-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &:nth-of-type(2n) {
+        background-color: #D55B79;
+    }
+}
+
+.text-1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: text 3s 1;
+}
+.text-2{
+    font-size: 20px;
+    color: tomato;
+}
+@keyframes text{
+    0%{
+        color: black;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 10px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 2px;
+        margin-bottom: -40px;
+    }
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.navmar{
+    margin: 0px 20px ;
+  }
+#home{
+    margin-top: 150px;
+}
+.search{
+    border: 2px solid gray;
+}
+#textbox{
+    height:30px;
+    font-size: 12pt;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.btn{
+    font-size: xx-small;
+}
+#bgimage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.inst{
+    height: 100vh;
+    padding-top: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.bg-img-1{
+    background-image: url('teacher-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &:nth-of-type(2n) {
+        background-color: #D55B79;
+    }
+}
+.vh{
+    height: 100vh;
+}
+.ctr{
+    padding-top: 200px;
+}
+.contact{
+    position: inherit;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
